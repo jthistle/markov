@@ -213,15 +213,15 @@ class Markov {
   */
   tryInitFromCompiled(sourceFile) {
     return new Promise((resolve, reject) => {
-      mark.checkIfHasCompiled().then((success) => {
+      this.checkIfHasCompiled().then((success) => {
         if (success) {
-          mark.initFromCompiled().then(() => {
+          this.initFromCompiled().then(() => {
             resolve()
           }).catch((error) => {
             reject(error)
           })
         } else {
-          mark.initFromFile(sourceFile, true).then(() => {
+          this.initFromFile(sourceFile, true).then(() => {
             resolve()
           }).catch((error) => {
             reject(error)
