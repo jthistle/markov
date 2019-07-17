@@ -8,11 +8,17 @@
   "scripts": {
     "start": "babel-node --presets es2015 markov.js"
   },
-  "name": "markov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jthistle/markov"
+  },
+  "name": "compiled-markov",
   "version": "0.0.1",
-  "description": "A markov generator",
-  "main": "markov.js",
-  "author": "James Thistlewood",
+  "description": "A markov generator, with support for chain compilation",
+  "main": "./lib/index.js",
+  "author": {
+    "name": "James Thistlewood"
+  },
   "license": "GPL-2.0-only",
   "private": false
 }
