@@ -52,7 +52,7 @@ The generator will try to open the compiled file at `markov.compiled`. If it fai
 
 The generator will generate a new markov chain from the text read from the `file` provided, and save the compiled chain if told to.
 
-#### `initFromText(text, saveCompiled): [no return val]`
+#### `initFromText(text, saveCompiled): Promise`
 
 - `text`: `string`, the source text string
 - `saveCompiled`: `bool` (optional, default: `false`), whether or not to save the compiled chain in `markov.compiled`.
