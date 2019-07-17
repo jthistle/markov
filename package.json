@@ -14,6 +14,13 @@
   "author": {
     "name": "James Thistlewood"
   },
+  "keywords": [
+    "markov",
+    "generator",
+    "compiled",
+    "simple",
+    "easy"
+  ],
   "license": "GPL-2.0-only",
   "private": false
 }
