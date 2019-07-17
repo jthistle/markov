@@ -45,12 +45,19 @@ this programme.**
 
 The generator will try to open the compiled file at `markov.compiled`. If it fails, it will generate a new markov chain from the source text provided, which it will then save as a compiled file.
 
-#### `initFromText(file, saveCompiled): Promise`
+#### `initFromFile(file, saveCompiled): Promise`
 
 - `file`: `string`, the location of the file that you want to use as a source text
-- `saveCompiled`: `bool` (optional, default: `true`), whether or not to save the compiled chain in `markov.compiled`.
+- `saveCompiled`: `bool` (optional, default: `false`), whether or not to save the compiled chain in `markov.compiled`.
 
-The generator will generate a new markov chain from the source text provided, and save it if told to.
+The generator will generate a new markov chain from the text read from the `file` provided, and save the compiled chain if told to.
+
+#### `initFromText(text, saveCompiled): [no return val]`
+
+- `text`: `string`, the source text string
+- `saveCompiled`: `bool` (optional, default: `false`), whether or not to save the compiled chain in `markov.compiled`.
+
+The generator will generate a new markov chain from the source text provided, and save the compiled chain if told to.
 
 #### `initFromCompiled(): Promise`
 
