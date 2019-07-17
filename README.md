@@ -71,7 +71,7 @@ The generator will try to generate a new markov chain from the compiled file sav
 - `seed`: `string` (optional, default: `undefined`), the word to seed the sentence from
 
 Randomly generate `count` sentences. `seed` can be used to choose how to start off
-generation - NOTE: seed will _not_ be the first word of the sentence.
+generation - it will be the first word of the generated sentences. `seed` is case sensitive.
 
 ## Contributing
 
