@@ -15,7 +15,7 @@ A Markov generator module for JS (ES6).
 Otherwise, here is an example of how to use it:
 
 ```javascript
-    import Markov from './Markov'
+    const Markov = require('compiled-markov')
 
     const mark = new Markov()
 
