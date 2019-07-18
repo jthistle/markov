@@ -1,4 +1,4 @@
-# Markov
+# Compiled Markov
 
 A Markov generator module for JS with support for compilation.
 
@@ -52,13 +52,13 @@ this programme.**
 
 ### Initialisation
 
-#### `initFromText(text): Promise`
+#### `initFromText(text): [no return value]`
 
 - `text`: `string`, the source text string
 
 The generator will generate a new markov chain from the source text provided.
 
-#### `initFromCompiled(compiled): Promise`
+#### `initFromCompiled(compiled): [no return value]`
 
 - `compiled`: `string` or `Object`, the compiled JSON
 
