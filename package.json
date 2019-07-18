@@ -8,7 +8,7 @@
     "url": "https://github.com/jthistle/markov"
   },
   "name": "compiled-markov",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A markov generator, with support for chain compilation",
   "main": "./lib/index.js",
   "author": {
