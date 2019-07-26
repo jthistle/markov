@@ -1,7 +1,8 @@
 {
   "dependencies": {},
   "scripts": {
-    "start": "node lib/index.js"
+    "start": "node lib/index.js",
+    "release": "bump --commit --tag --push && npm publish"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
     "easy"
   ],
   "license": "GPL-2.0-only",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "version-bump-prompt": "^5.0.4"
+  }
 }
