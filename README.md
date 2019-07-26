@@ -34,7 +34,7 @@ const runProgram = (source) => {
 
 Pretty simple, huh?
 
-In other Node environments, such as web platforms like React, you can pass a string to `initFromText`, or work out your own way of fetching and opening a text file. It can be a bit more difficult, since `fs` isn't supported in Node when it's run for browser applications. 
+In other JS environments, such as web platforms like React, you can pass a string to `initFromText`, or work out your own way of fetching and opening a text file. It can be a bit more difficult, since `fs` isn't supported in Node when it's run for browser applications. 
 
 `wells-source.txt` is provided as an example source file, taken from [Project Gutenburg](http://www.gutenberg.org/files/36/36-h/36-h.htm). This work (_The War of the Worlds_, H.G. Wells, 1897) is public domain - in the UK, at least.
 
